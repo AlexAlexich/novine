@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    color:white;
+}
+.cleaner {
+    clear: both;
+}
+.hide{
+    display: none;
+}
+header {
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgb(187, 78, 78);   
+}
+#gornji{
+    background-color: rgb(250, 92, 100);
+}
+ #slika {
+    width: 30%;
+}
+ #slika img {
+    width: 50%;
+    margin-top: 15px;
+}
+#loginGore{
+    width: 60%;
+    
+}
+#goreDesno{
+    float: right;
+    margin-top:2%;
+}
+#goreDesno form input,button {
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+}
+#goreDesno button{
+    color:rgb(250, 92, 100);
+    padding: 4px;
+}
+#goreDesno button:hover{
+    
+    background-color: rgb(78, 78, 253);
+}
+
+a:hover {
+    color:blue;
+     
+ }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.okvir {
+    width: 80%;
+    margin: 0 auto;
+}
+.divMeni ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.divMeni ul li {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+    
+}
+.divMeni ul li a:hover {
+   color:white;
+   background-color: red;
+    
+}
+
+.divMeni ul li:last-child {
+    margin-right: 0px;
+}
+footer {
+    
+    background-color: black;
+    min-height: 300px;
+    color: white;
+    padding: 20px;
+}
+footer p {
+    width: 20%;
+    margin: 0px auto;
+}
+#navigacija, #socials {
+    font-size: 25px;
+}
+
+#navigacija ul li {
+    margin-top: 30px;
+}
+#socials ul li{
+    margin-top: 30px;
+}
+#dolePrvo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dole {
+    width: 100%;
+    font-size: 30px;
+}
+.podmeni{
+    width: 100%;
+    background-color: rgb(204, 48, 48) !important;
+}
+.newsSlider{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.slider{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    height: 300px;
+}
+.newsSlider{
+    border-radius: 5px;
+}
+.nas{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sadrzaj{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:5px;
+    min-height: 700px;
+}
+.sadrzajLevo{
+    width: 65%;
+  
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.sadrzajDesno{
+    width: 30%;
+    
+}
+.vest{
+    width: 90%;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(214, 94, 94);
+    background-color: rgb(236, 230, 230);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.vest h1 a{
+    color: rgb(214, 94, 94);
+}
+.vest h1 a:hover{
+    color:black;
+}
+.vestLevo{
+    width: 35%;
+   
+}
+.vestDesno{
+    width: 70%;
+}
+.vestLevo img{
+    width: 100%;
+    border-radius: 5px;
+    height: 250px;
+
+}
+.vestNaslov{
+    width: 100%;
+    height: 200px;
+}
+.vestInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.podkat{
+    width: 30%;
+}
+.datumBrKom{
+    width: 30%;
+    text-align: end;
+    
+}
+.datumBrKom p, .datumBrKom a{
+    color:rgb(214, 94, 94);
+}
+.datumBrKom a:hover{
+    color:black;
+}
+.podkat a{
+    color:rgb(214, 94, 94);
+    font-size:35px;
+}
+.podkat a:hover{
+    color:black;
+}
+#vest{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(236, 234, 234);
+    margin-top:30px;
+    border-radius: 5px;
+}
+#gornjiDeo{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#slikaGornjiDeo{
+    width: 35%;
+    margin: auto;
+}
+#slikaGornjiDeo img{
+    width: 100%;
+    border-radius: 5px;
+}
+#naslovGornjiDeo{
+    width: 55%;
+    margin: auto;
+    margin-left: 30px;
+}
+#gornjiDeo h1{
+    color:rgb(214, 94, 94);
+    font-size: 50px;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+}
+#textDonjiDeo{
+    width: 90%;
+    margin: 35px auto 30px;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+   
+}
+#textDonjiDeo p {
+    width:80%;
+    margin:auto;
+    color:rgb(39, 39, 39);
+    font-size: 30px;
+   
+}
+#novinarDiv p {
+    color:rgb(39, 39, 39);
+}
+#komentari h1, #komentari label,#komentari button{
+    color:red;
+}
+#komentari button:hover{
+    background-color: blueviolet;
+}
+#komentariSkup{
+    width: 80%;
+    margin:auto;
+}
+#komentariSkup tbody{
+    border:1px solid black;
+}
+#komentariSkup table tr td{
+    width:5%;
+    font-size: 20px;
+}
+#komentariSkup table tr td img{
+    width: 50px !important;
+}
+#komentariSkup a {
+    color:red !important;
+}
+#nemaVestiWarning{
+    color:red;
+    font-size: 50px;
+}
+#Register{
+    width: 100%;
+    min-height: 30vw;
+}
+#Register form table{
+    margin: auto;
+    font-size: 50px;
+    color:black;
+}
+#Register form table input{
+    font-size: 30px;
+}
+#Register form table tr:last-child{
+    text-align: end;
+    font-size: 15px;
+}
+#Register form table tr a{
+    color:red;
+}
+.greskaIme,
+.greskaPrezime,
+.greskaUsername,
+.greskaEmail,
+.greskaPass,
+.greskaCPass,
+.greskaKategorija{
+    font-size: 15px;
+    color: red;
+}
+.adminPanelTabela  tr td{
+    border: 3px solid  black;
+    font-size: 25px;
+    
+}
+.adminPanelTabela tr td a {
+    color:rgb(221, 31, 79);
+}
+.adminPanelTabela tr td a:hover {
+    color:rgb(99, 22, 163);
+}
+#stampajKorisnike{
+    min-height: 700px;
+}
+.adminPanelTabela tr td img{
+    width: 30px !important;
+}
+#adminPanel ul li a{
+    font-size: 30px;
+    color: red;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+#poruke table tr td{
+    border: 1px solid black;
+}
+#anketa label{
+    font-size: 40px;
+}
+#anketa tr td{
+    font-size: 30px;
+}
+#anketa tr td input{
+    font-size: 20px;
+    background-color: rgb(169, 169, 252);
+}
+#anketa tr td input:hover{
+    background-color: red;
+}
+#slikaAutor{
+    width: 25%;
+}
+#slikaAutor img{
+width: 100% !important;
+border-radius: 20px;
+}
+#tekstAutor{
+    width: 70%;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+}
+#tekstAutor h2{
+    text-align: center;
+}
+#tekstAutor h3{
+    margin-left: 10px;
+}

@@ -1,0 +1,26 @@
+
+.adminMeni{
+    min-height: 50px;
+    width: 100%;
+    background-color:rgb(255, 164, 164) !important;
+}
+
+.adminFlex ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.btnUploadVest{
+    background-color: rgb(65, 65, 235) !important;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.btnUploadVest:hover{
+    background-color: red !important;
+}
+#anketaIspis tr td{
+    border: 2px solid black;
+}
